@@ -10,7 +10,7 @@ ValuesController controller = new ValuesController();
 public void GetReturnsCorrectNumber()
 {
   var returnValue = controller.Get(1);
-  Assert.Equal("dot net", returnValue);
+  Assert.Equal("Dot net", returnValue);
 }
 
 
