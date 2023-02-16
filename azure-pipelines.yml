@@ -21,7 +21,7 @@ steps:
     publishWebProjects: true
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'AshishServicePlan'
+    azureSubscription: 'Free Trial'
     appType: 'webapp'
     appName: 'AshishApi'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
